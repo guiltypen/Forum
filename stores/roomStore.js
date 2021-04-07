@@ -1,6 +1,5 @@
 //Uncomment the code below when recieving the functional backend for integration
-/** 
-
+/*
 //Dependencies
 import { makeAutoObservable } from "mobx";
 
@@ -30,6 +29,5 @@ const roomStore = new RoomStore();
 roomStore.fetchRooms();
 
 export default roomStore;
-
 
 */

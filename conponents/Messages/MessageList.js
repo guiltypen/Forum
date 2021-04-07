@@ -27,7 +27,7 @@ const MessageList = () => {
   ));
   return (
     <Content>
-      <List>{MessageList}</List>
+      <List>{messageList}</List>
     </Content>
   );
 };

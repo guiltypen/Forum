@@ -1,6 +1,7 @@
 //Dependencies
 import React from "react";
 
+import authStore from "../stores/authStore";
 //Style
 import {
   BackgroundContainer,
@@ -11,12 +12,17 @@ import {
 
 //Code
 const Home = () => {
+  const handleSubmit = () => {
+    console.log("Signout", user);
+    authStore.signout;
+  };
+
   return (
     <BackgroundContainer>
       <HomeMiddle>
         <HomeText>Testing!</HomeText>
       </HomeMiddle>
-      <ButtonContainer></ButtonContainer>
+      <ButtonContainer onClick={handleSubmit}></ButtonContainer>
     </BackgroundContainer>
   );
 };

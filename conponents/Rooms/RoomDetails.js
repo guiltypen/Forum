@@ -10,6 +10,8 @@ import { Spinner, Text } from "native-base";
 
 //Imports
 import roomStore from "../../stores/roomStore";
+import messageStore from "../../stores/messageStore";
+
 
 //Code
 const RoomDetails = () => {

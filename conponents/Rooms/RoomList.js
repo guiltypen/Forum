@@ -1,6 +1,5 @@
 //Uncomment the code below when recieving the functional backend for integration
-/** 
-
+/*
 //Dependencies
 import { observer } from "mobx-react";
 import React from "react";
@@ -27,11 +26,10 @@ const RoomList = () => {
   ));
   return (
     <Content>
-      <List>{RoomList}</List>
+      <List>{roomList}</List>
     </Content>
   );
 };
 
 export default observer(RoomList);
-
 */
